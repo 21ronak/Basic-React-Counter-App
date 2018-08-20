@@ -1,39 +1,5 @@
 import React, { Component } from "react";
 class Counter extends Component {
-  // state = {
-  //   value: this.props.counter.value,
-  //   tags1: [],
-  //   tags: ["tag1", "tag2", "tag3", "tag4"]
-  // };
-  // *** Removing local state, becomes contained object.
-
-  // constructor() {
-  //   super();
-  //   this.handleIncrement = this.handleIncrement.bind(this);
-  // }
-  // **** use arrow function to avoid using constructor
-
-  // stylesEx = {
-  //   fontSize: 14,
-  //   fontWeight: "bold"
-  // };
-
-  // renderTags() {
-  //   if (this.state.tags.length === 0) return <p>There are no tags!</p>;
-
-  //   return (
-  //     <ul>
-  //       {this.state.tags.map(tag => (
-  //         <li key={tag}>{tag}</li>
-  //       ))}
-  //     </ul>
-  //   );
-  // }
-
-  // handleIncrement = () => {
-  //   this.setState({ value: this.state.value + 1 });
-  // };
-
   render() {
     return (
       <React.Fragment>
@@ -54,9 +20,6 @@ class Counter extends Component {
         >
           Delete
         </button>
-
-        {/* <p>{this.state.tags.length === 0 && "Please add new tags!"}</p>
-        {this.renderTags()} */}
       </React.Fragment>
     );
   }
